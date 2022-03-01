@@ -13,7 +13,11 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
-  
-  return 0;
+  int n , sum; 
+  printf("Enter the number:");
+  scanf("%d",&n);
+  sum = (n * (n + 1) ) / 2; 
+  printf("Sum of %d natural number is = %d", n, sum); 
+return 0;
 }
 
